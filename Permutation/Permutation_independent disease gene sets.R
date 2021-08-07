@@ -3,7 +3,7 @@
 setwd("") # set working directory
 getwd()
 
-diseaseGeneSetDir <- "" # set path to independent disease gene sets, saved as individual .csv files;
+diseaseGeneSetDir <- "" # set path to independent disease gene sets, saved as individual .csv files
 diseaseGeneSetNames <- list.files( diseaseGeneSetDir, pattern="^.*\\.csv$" )
 
 path <- "" # set path to "zebrafish genes human homologs.csv" file, a list containing human homologs of all zebrafish genes 
